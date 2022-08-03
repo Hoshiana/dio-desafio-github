@@ -23,3 +23,8 @@ $ git status -> Este comando apresentará em qual condição o repositório loca
 
 # Comando para comitar o arquivo:
 $ git commit -m "examplo de mensagem"
+
+# Comando para enviar o repositório local e sincronizar com repósitorio remoto:
+$ git remote add origin "digite o endereço HTTPS"
+$ git remote -v  -> este comando verifica os repositórios cadastrados
+$ git push origin "main" ou "master" 
