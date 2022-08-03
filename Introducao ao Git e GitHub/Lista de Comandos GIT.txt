@@ -1,4 +1,23 @@
-Lista de comandos usados no GIT:
+Lista de comandos usados no GitBash:
+
+SHA1 - Algoritmo de encriptação
+
+# Comando para criar Chave SSH:
+$ ssh-keygen -t ed25519 -C "digite aqui o email da conta registrada no GitHub"
+
+## Obs: após a criação das chaves, vá a pasta em foi salva as chaves e copie a chave da pasta pública e cole no GitHub 
+
+# Comando para inicializar o ssh-agent, entidade encarregada em lidar com as chaves:
+$ eval $(ssh-agent -s)
+
+# Após a geração do agente, entregue a chave criada:
+$ ssh-add "insere o caminho em que está a chave privada" ### Após ele solicitará a senha inseria na criação da chave
+
+# Em seguida vá até GitHub e copie o link SSH para clonar o repositório:
+$ git clone "Cole aqui o caminho SSH  que copiou do GitHub "git@github.com:"Exemplo_Users/Nome-Repositório.git"
+
+# Comando para iniciar o Git para que ele passe a gerenciar o versionamento dos códigos:
+$ git init 
 
 $ git status -> Este comando apresentará em qual condição o repositório local está
 
