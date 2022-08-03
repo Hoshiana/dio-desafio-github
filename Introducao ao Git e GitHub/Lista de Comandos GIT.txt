@@ -1,0 +1,4 @@
+Lista de comandos usados no GIT:
+
+$ git status -> Este comando apresentará em qual condição o repositório local está
+
